@@ -24,10 +24,10 @@ The first step is building the Docker image. Open a terminal and navigate to the
 $ docker build . -t factorial-digits
 ```
 
-Once the Docker image is built, the image can be run. The following command will run the image, where value should be replaced with the user desired numeric value to be calculated for.
+Once the Docker image is built, the image can be run. The following command will run the image, where value is the user desired numeric value to be calculated for.
 
 ```
-$  docker run --rm factorial-digits value
+$  docker run --rm factorial-digits $VALUE
 ```
 
 For example, running the following command will result in the output of 10539.
